@@ -1,69 +1,97 @@
-# Welcome to your Lovable project
+# 🌍 AirGuard-AQI
+*Cloud + AI/ML Powered Air Quality Monitoring & Prediction System*
 
-## Project info
+![GitHub repo size](https://img.shields.io/github/repo-size/lohithkumar-j/AirGuard-AQI)
+![GitHub stars](https://img.shields.io/github/stars/lohithkumar-j/AirGuard-AQI?style=social)
+![GitHub forks](https://img.shields.io/github/forks/lohithkumar-j/AirGuard-AQI?style=social)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-**URL**: https://lovable.dev/projects/6842b2e9-7a1d-4975-9ee8-4ceb8c699c20
+---
 
-## How can I edit this code?
+## 📖 About the Project
+**AirGuard-AQI** is a cloud-powered, AI/ML-driven project that monitors and predicts air quality in real time. Using IoT sensors, it collects environmental data like PM2.5, PM10, CO₂, temperature, and humidity. Data is processed on **AWS/GCP** and fed into **machine learning models** to forecast AQI trends. A modern dashboard provides insights, visualizations, and alerts to help communities take **proactive measures** against pollution.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## ✨ Features
+- 📡 Real-time IoT sensor data collection
+- ☁️ Cloud integration with AWS/GCP
+- 🤖 AI/ML models for AQI forecasting
+- 📊 Interactive dashboard for visualization
+- 🔔 Alerts for hazardous AQI levels
+- 📜 Historical data analytics
+- 🌱 Sustainability insights for eco-policy planning
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6842b2e9-7a1d-4975-9ee8-4ceb8c699c20) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠 Tech Stack
+<p align="left">
+<img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,react,nodejs,express,mongodb,postgres,git,docker,kubernetes,aws,gcp&perline=9" />
+</p>
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🚀 Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
+- Python 3.8+
+- Node.js & npm
+- MongoDB/PostgreSQL
+- Cloud account (AWS/GCP)
 
-Follow these steps:
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/lohithkumar-j/AirGuard-AQI.git
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Navigate to project folder
+cd AirGuard-AQI
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Backend setup
+pip install -r requirements.txt
+python manage.py runserver
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+# Frontend setup
+cd client
+npm install
+npm start
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📸 Screenshots
+*(Add your UI and dashboard screenshots here)*
 
-**Use GitHub Codespaces**
+- **Live AQI Dashboard**
+- **Forecasting Page**
+- **Sensor Data View**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 📊 GitHub Stats
+![](https://github-readme-stats.vercel.app/api/pin/?username=lohithkumar-j&repo=AirGuard-AQI&theme=radical)
 
-This project is built with .
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🏆 Future Enhancements
+- Mobile App (React Native/Flutter)
+- Multi-city AQI prediction system
+- AI-powered personalized health recommendations
+- Integration with **Smart Home & IoT devices**
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/6842b2e9-7a1d-4975-9ee8-4ceb8c699c20) and click on Share -> Publish.
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!<br>
+Check the [issues page](../../issues).
 
-## I want to use a custom domain - is that possible?
+---
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## 📜 License
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+
+## 👨‍💻 Author
+**Lohith Janapala**  
+🔗 [Portfolio](https://jlks-portfolio.netlify.app/) | [LinkedIn](https://www.linkedin.com/in/janapalalohithkumar/) | [GitHub](https://github.com/lohithkumar-j)
